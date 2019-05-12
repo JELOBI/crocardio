@@ -9,7 +9,7 @@
             <form class="form" method="" action="">
                 <div class="header">
                     <div class="logo-container">
-                        <img src="../assets/images/logo.svg" alt="">
+                        <img src="../assets/images/logo.png" alt="">
                     </div>
                     <h5>Forgot Password?</h5>
                     <span>Enter your e-mail address below to reset your password.</span>

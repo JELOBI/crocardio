@@ -1,5 +1,5 @@
 @extends('layout.master')
-@section('title', 'Dashboard')
+@section('title', 'Glavna ploča')
 @section('page-style')
 <link rel="stylesheet" href="{{asset('assets/plugins/jvectormap/jquery-jvectormap-2.0.3.min.css')}}"/>
 <link rel="stylesheet" href="{{asset('assets/plugins/morrisjs/morris.min.css')}}" />
@@ -9,36 +9,36 @@
     <div class="col-lg-4 col-md-6">
         <div class="card">
             <div class="body">
-                <h3 class="number count-to m-b-0" data-from="0" data-to="1600" data-speed="2500" data-fresh-interval="700">1600 <i class="zmdi zmdi-trending-up float-right"></i></h3>
-                <p class="text-muted">New Feedbacks</p>
-                <div class="progress">
+                <h3 class="number count-to m-b-0" data-from="0" data-to="1225" data-speed="500" data-fresh-interval="250">1225<i class="zmdi zmdi-trending-up float-right"></i></h3>
+                <p class="text-muted">Pacijenata</p>
+{{--                <div class="progress">
                     <div class="progress-bar l-blush" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100" style="width: 68%;"></div>
                 </div>
-                <small>Change 15%</small>
+                <small>Change 15%</small>--}}
             </div>
         </div>
     </div>
     <div class="col-lg-4 col-md-6">
         <div class="card">
             <div class="body">
-                <h3 class="number count-to m-b-0" data-from="0" data-to="3218" data-speed="2500" data-fresh-interval="1000">3218 <i class="zmdi zmdi-trending-up float-right"></i></h3>
-                <p class="text-muted">Happy Clients</p>
-                <div class="progress">
+                <h3 class="number count-to m-b-0" data-from="0" data-to="118" data-speed="10" data-fresh-interval="10">118<i class="zmdi zmdi-trending-up float-right"></i></h3>
+                <p class="text-muted">Lječnika</p>
+{{--                <div class="progress">
                     <div class="progress-bar l-green" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100" style="width: 68%;"></div>
                 </div>
-                <small>Change 23%</small>
+                <small>Change 23%</small>--}}
             </div>
         </div>
     </div>
     <div class="col-lg-4 col-md-12">
         <div class="card">
             <div class="body">
-                <h3 class="number count-to m-b-0" data-from="0" data-to="284" data-speed="2500" data-fresh-interval="1000">284 <i class="zmdi zmdi-trending-up float-right"></i></h3>
-                <p class="text-muted">Well Smiley Faces <i class="zmdi zmdi-mood"></i></p>
-                <div class="progress">
+                <h3 class="number count-to m-b-0" data-from="0" data-to="2284" data-speed="2500" data-fresh-interval="1000">2284 <i class="zmdi zmdi-trending-up float-right"></i></h3>
+                <p class="text-muted">Zabilježenih pregleda <i class="zmdi zmdi-mood"></i></p>
+{{--                <div class="progress">
                     <div class="progress-bar l-parpl" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100" style="width: 68%;"></div>
                 </div>
-                <small>Change 50%</small>
+                <small>Change 50%</small>--}}
             </div>
         </div>
     </div>
@@ -47,7 +47,7 @@
     <div class="col-lg-8 col-md-12">
         <div class="card">
             <div class="header">
-                <h2><strong>Hospital</strong> Survey</h2>
+                <h2><strong>Kvartalna analiza dnevnih prosjeka </strong> urađenih pregleda po ustanovima</h2>
                 <ul class="header-dropdown">
                     <li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="zmdi zmdi-more"></i> </a>
                         <ul class="dropdown-menu dropdown-menu-right slideUp float-right">
@@ -64,15 +64,15 @@
             <div class="body">
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs padding-0">
-                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#chart-view">Chart View</a></li>
-                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#table-view">Table View</a></li>
+                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#chart-view">Grafički prikaz</a></li>
+                    {{--<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#table-view">Table View</a></li>--}}
                 </ul>
                     
                 <!-- Tab panes -->
                 <div class="tab-content m-t-10">
                     <div class="tab-pane active" id="chart-view">
                         <div id="area_chart" class="graph"></div>
-                        <div class="xl-slategray">
+                        {{--<div class="xl-slategray">
                             <div class="body">
                                 <div class="row text-center">
                                     <div class="col-sm-3 col-6">
@@ -93,9 +93,9 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>                                
+                        </div> --}}
                     </div>
-                    <div class="tab-pane" id="table-view">
+                   {{-- <div class="tab-pane" id="table-view">
                         <div class="table-responsive">
                             <table class="table m-b-0 table-hover">
                                 <thead>
@@ -201,7 +201,7 @@
                                 </tbody>
                             </table>
                         </div>
-                    </div>
+                    </div>--}}
                 </div>
             </div>                    
         </div>
@@ -209,42 +209,45 @@
     <div class="col-lg-4 col-md-12">
         <div class="card">
             <div class="body">
-                <div class="sparkline m-b-10" data-type="bar" data-width="97%" data-height="38px" data-bar-Width="2" data-bar-Spacing="6" data-bar-Color="#555555">2,8,5,3,1,7,9,5,6,4,2,3,1,2,8,5,3,1,7,9,5,6,4,2,3,1</div>
-                <h6 class="text-center m-b-15">Total New Patient</h6>
-                <div id="world-map-markers2" style="height:125px;"></div>
+                <h6 class="text-center m-b-15">Pregled pacijenata i lječnika</h6>
+                {{--                 <div class="sparkline m-b-10" data-type="bar" data-width="97%" data-height="38px" data-bar-Width="2" data-bar-Spacing="6" data-bar-Color="#555555">2,8,5,3,1,7,9,5,6,4,2,3,1,2,8,5,3,1,7,9,5,6,4,2,3,1</div>
+                               <h6 class="text-center m-b-15">Total New Patient</h6>--}}
+                                {{--<div id="world-map-markers2" style="height:125px;"></div>--}}
                 <div class="table-responsive m-t-20">
                     <table class="table table-striped m-b-0">
                         <thead>
                             <tr>
-                                <th>City</th>                                        
-                                <th>Count</th>
+                                <th>Ustanova</th>
+                                <th>Lječnika</th>
+                                <th>Pacijenata</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>New York</td>
-                                <td>215<i class="zmdi zmdi-trending-up m-l-10"></i></td>
+                                <td>Opatija</td>
+                                <td>45</td>
+                                <td>888</td>
                             </tr>
                             <tr>
-                                <td>Los Angeles</td>
-                                <td>189<i class="zmdi zmdi-trending-up m-l-10"></i></td>
+                                <td>Ustanova 1</td>
+                                <td>45</td>
+                                <td>888</td>
                             </tr>
                             <tr>
-                                <td>Chicago</td>
-                                <td>408<i class="zmdi zmdi-trending-down m-l-10"></i></td>
+                                <td>Ustanova 2</td>
+                                <td>45</td>
+                                <td>888</td>
                             </tr>
                             <tr>
-                                <td>Houston</td>
-                                <td>78<i class="zmdi zmdi-trending-down m-l-10"></i></td>
+                                <td>Ustanova 3</td>
+                                <td>45</td>
+                                <td>888</td>
                             </tr>
                             <tr>
-                                <td>Phoenix</td>
-                                <td>148<i class="zmdi zmdi-trending-up m-l-10"></i></td>
+                                <td>Ustanova 4</td>
+                                <td>45</td>
+                                <td>888</td>
                             </tr>
-                            <tr>
-                                <td>San Diego</td>
-                                <td>102<i class="zmdi zmdi-trending-down m-l-10"></i></td>
-                            </tr>                                    
                         </tbody>
                     </table>
                 </div>
@@ -252,7 +255,7 @@
         </div>
     </div>
 </div>         
-<div class="row clearfix">
+{{--<div class="row clearfix">
     <div class="col-lg-4 col-md-12">
         <div class="card">
             <div class="header">
@@ -555,7 +558,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>--}}
 @stop
 @section('page-script')
 <script src="{{asset('assets/bundles/morrisscripts.bundle.js')}}"></script>

@@ -111,3 +111,11 @@ Route::get('ui/range-sliders', 'UiController@rangeSliders')->name('ui.range-slid
 Route::get('ui/sortable-nestable', 'UiController@sortableNestable')->name('ui.sortable-nestable');
 Route::get('ui/tabs', 'UiController@tabs')->name('ui.tabs');
 Route::get('ui/waves', 'UiController@waves')->name('ui.waves');
+
+
+
+/* DOCTOR DASHBOARD*/
+
+/* Dashboard */
+Route::get('main-doctor', function ()       { return redirect('main-doctor/index'); });
+Route::get('main-doctor/index',             'DashboardController@index_main_doctor')->name('main-doctor.dashboard.index');

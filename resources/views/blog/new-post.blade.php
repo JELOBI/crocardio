@@ -1,5 +1,5 @@
 @extends('layout.master')
-@section('title', 'Blog Post')
+@section('title', 'Napiši svoj blog')
 @section('parentPageTitle', 'Blog')
 @section('page-style')
     <link rel="stylesheet" href="{{asset('assets/plugins/dropzone/dropzone.css')}}"/>
@@ -14,17 +14,16 @@
             <div class="card">
                 <div class="body">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Enter Blog title" />
+                        <input type="text" class="form-control" placeholder="Naslov" />
                     </div>
                     <select class="form-control show-tick">
-                        <option>Select Category --</option>
-                        <option>Web Design</option>
-                        <option>Photography</option>
-                        <option>Technology</option>
-                        <option>Lifestyle</option>
-                        <option>Sports</option>
+                        <option>Kategorija --</option>
+                        <option>Analize</option>
+                        <option>Savjeti</option>
+                        <option>Tehnologija</option>
+                        <option>Mišljenja</option>
                     </select>
-                    <form action="/" id="frmFileUpload" class="dropzone m-b-20 m-t-20" method="post" enctype="multipart/form-data">
+{{--                    <form action="/" id="frmFileUpload" class="dropzone m-b-20 m-t-20" method="post" enctype="multipart/form-data">
                         <div class="dz-message">
                             <div class="drag-icon-cph"> <i class="material-icons">touch_app</i> </div>
                             <h3>Drop files here or click to upload.</h3>
@@ -32,7 +31,7 @@
                         <div class="fallback">
                             <input name="file" type="file" multiple />
                         </div>
-                    </form>                        
+                    </form>   --}}
                 </div>
             </div>
             <div class="card">
@@ -51,7 +50,8 @@
                         <h3>Pellentesque adipiscing</h3>
                         <p>Maecenas quis ante ante. Nunc adipiscing rhoncus rutrum. Pellentesque adipiscing urna mi, ut tempus lacus ultrices ac. Pellentesque sodales, libero et mollis interdum, dui odio vestibulum dolor, eu pellentesque nisl nibh quis nunc. Sed porttitor leo adipiscing venenatis vehicula. Aenean quis viverra enim. Praesent porttitor ut ipsum id ornare.</p>
                     </textarea>
-                    <button type="button" class="btn btn-primary btn-round waves-effect m-t-20">Post</button>
+                    <button type="button" class="btn btn-primary btn-round waves-effect m-t-20">Pošalji</button>
+
                 </div>
             </div>
         </div>            

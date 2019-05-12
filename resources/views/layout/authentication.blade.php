@@ -50,7 +50,7 @@
         <nav class="navbar navbar-expand-lg fixed-top navbar-transparent">
             <div class="container">        
                 <div class="navbar-translate n_logo">
-                    <a class="navbar-brand" href="javascript:void(0);" title="" target="_blank">Oreo</a>
+                    <a class="navbar-brand" href="javascript:void(0);" title="" target="_blank">CroCardio</a>
                     <button class="navbar-toggler" type="button">
                         <span class="navbar-toggler-bar bar1"></span>
                         <span class="navbar-toggler-bar bar2"></span>
@@ -60,11 +60,11 @@
                 <div class="navbar-collapse">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="{{route('dashboard.index')}}">Home</a>
+                            <a class="nav-link" href="{{route('dashboard.index')}}">Web site</a>
                         </li>
-                        <li class="nav-item">
+{{--                        <li class="nav-item">
                             <a class="nav-link" href="javascript:void(0);">Search Result</a>
-                        </li>
+                        </li>--}}
                         <li class="nav-item">
                             <a class="nav-link" title="Follow us on Twitter" href="javascript:void(0);" target="_blank">
                                 <i class="zmdi zmdi-twitter"></i>
@@ -84,7 +84,7 @@
                             </a>
                         </li>                
                         <li class="nav-item">
-                            <a class="nav-link btn btn-white btn-round" href="{{route('authentication.register')}}">SIGN UP</a>
+                            <a class="nav-link btn btn-white btn-round" href="{{route('authentication.register')}}">REGISTRUJ SE</a>
                         </li>
                     </ul>
                 </div>
@@ -100,8 +100,7 @@
                 <div class="container">
                     <nav>
                         <ul>
-                            <li><a href="http://thememakker.com/contact/" target="_blank">Contact Us</a></li>
-                            <li><a href="http://thememakker.com/about/" target="_blank">About Us</a></li>
+                            <li><a href="#" target="_blank">Kontakt</a></li>
                             <li><a href="javascript:void(0);">FAQ</a></li>
                         </ul>
                     </nav>
@@ -110,7 +109,7 @@
                         <script>
                             document.write(new Date().getFullYear())
                         </script>,
-                        <span>Designed by <a href="http://thememakker.com/" target="_blank">ThemeMakker</a></span>
+                        <span>Developed by <a href="#" target="_blank">BTA</a></span>
                     </div>
                 </div>
             </footer>

@@ -18,7 +18,7 @@
                         <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#Web">Web</a></li>
                         <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Images">Images</a></li>
                         <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Videos">Videos</a></li>
-                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Oreo">Oreo</a></li>
+                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#CroCardio">CroCardio</a></li>
                     </ul>                        
                     <p class="m-b-0">Search Result For "Bootstrap 4 admin"</p>
                     <strong> About 16,853 result ( 0.13 seconds)</strong>
@@ -112,12 +112,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane" id="Oreo">
+                <div class="tab-pane" id="CroCardio">
                     <div class="card">
                         <div class="body">
                             <h6 class="m-t-0"><a href="javascript:void(0);">Timeline</a></h6>
                             <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
-                            <a href="javascript:void(0);">http://Oreo.com/lorem/timeline.html</a>
+                            <a href="javascript:void(0);">http://CroCardio.com/lorem/timeline.html</a>
                             <div class="row">
                                 <div class="col-sm-4 m-t-10"> <a href="javascript:void(0);"><img src="../assets/images/image2.jpg" alt="" class="img-fluid img-thumbnail"></a> </div>
                                 <div class="col-sm-4 m-t-10"> <a href="javascript:void(0);"> <img src="../assets/images/image3.jpg" alt="" class="img-fluid img-thumbnail"></a> </div>

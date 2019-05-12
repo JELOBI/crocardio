@@ -38,14 +38,14 @@
         border-bottom: 1px solid $grey-200;
         @extend .align-center;
 
-        .image {     
+        .image {
 
             img {
-                width: 80px;
+                width: 170px;
                 @include border-radius(50%);
                 vertical-align: bottom !important;
                 border: 3px solid $white;
-                box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
             }
         }
         .detail{

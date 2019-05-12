@@ -3,11 +3,11 @@
         <li>
             <div class="navbar-header">
                 <a href="javascript:void(0);" class="bars"></a>
-                <a class="navbar-brand" href="{{route('dashboard.index')}}"><img src="../assets/images/logo.svg" width="30" alt="Oreo"><span class="m-l-10">Oreo</span></a>
+                <a class="navbar-brand" href="{{route('dashboard.index')}}"><img src="../assets/images/logo.png" width="50" alt="CroCardio"><span class="m-l-10">CroCardio</span></a>
             </div>
         </li>
         <li class="d-none d-lg-inline-block"><a href="javascript:void(0);" class="ls-toggle-btn" data-close="true"><i class="zmdi zmdi-swap"></i></a></li>
-        <li class="d-none d-lg-inline-block"><a href="{{route('doctor.events')}}" title="Events"><i class="zmdi zmdi-calendar"></i></a></li>
+{{--        <li class="d-none d-lg-inline-block"><a href="{{route('doctor.events')}}" title="Events"><i class="zmdi zmdi-calendar"></i></a></li>
         <li class="d-none d-lg-inline-block"><a href="{{route('app.inbox')}}" title="Inbox"><i class="zmdi zmdi-email"></i></a></li>
         <li class="d-none d-lg-inline-block"><a href="{{route('app.contact-list')}}" title="Contact List"><i class="zmdi zmdi-account-box-phone"></i></a></li>
         <li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="zmdi zmdi-notifications"></i>
@@ -168,11 +168,11 @@
                 </li>
                 <li class="footer"><a href="javascript:void(0);">View All</a></li>
             </ul>
-        </li>
+        </li>--}}
         <li class="d-none d-md-inline-block">
             @if (Request::segment(2) != 'rtl' )
                 <div class="input-group">                
-                    <input type="text" class="form-control" placeholder="Search...">
+                    <input type="text" class="form-control" placeholder="Pretraga...">
                     <span class="input-group-addon">
                         <i class="zmdi zmdi-search"></i>
                     </span>
@@ -183,7 +183,7 @@
         </li>        
         <li class="float-right">
             <a href="{{route('authentication.login')}}" class="mega-menu" data-close="true"><i class="zmdi zmdi-power"></i></a>
-            <a href="javascript:void(0);" class="js-right-sidebar" data-close="true"><i class="zmdi zmdi-settings zmdi-hc-spin"></i></a>
+            {{--<a href="javascript:void(0);" class="js-right-sidebar" data-close="true"><i class="zmdi zmdi-settings zmdi-hc-spin"></i></a>--}}
         </li>
     </ul>
 </nav>

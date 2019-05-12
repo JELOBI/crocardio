@@ -1,6 +1,6 @@
 @extends('layout.master')
-@section('parentPageTitle', 'Doctors')
-@section('title', 'Add Doctors')
+@section('parentPageTitle', 'Lječnik')
+@section('title', 'Novi lječnik')
 
 @section('page-style')
     <link rel="stylesheet" href="{{asset('assets/plugins/dropzone/dropzone.css')}}">
@@ -13,7 +13,7 @@
         <div class="col-lg-12 col-md-12 col-sm-12">
             <div class="card">
                 <div class="header">
-                    <h2><strong>Basic</strong> Information <small>Description text here...</small> </h2>
+                    <h2><strong>Osnovene</strong> informacije <small>lorem ipsum...</small> </h2>
                     <ul class="header-dropdown">
                         <li class="remove">
                             <a role="button" class="boxs-close"><i class="zmdi zmdi-close"></i></a>
@@ -22,69 +22,74 @@
                 </div>
                 <div class="body">
                     <div class="row clearfix">
-                        <div class="col-sm-6">
+                        <div class="col-sm-4">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="First Name">
+                                <input type="text" class="form-control" placeholder="Ime">
                             </div>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-4">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Last Name">
+                                <input type="text" class="form-control" placeholder="Prezime">
                             </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <select class="form-control show-tick">
+                                <option value="">- Ustanova -</option>
+                                <option value="10">Opatija</option>
+                                <option value="20">Ustanova 2</option>
+                            </select>
                         </div>
                     </div>
                     <div class="row clearfix">
                         <div class="col-sm-3">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Date of Birth">
+                                <input type="text" class="form-control" placeholder="Datum rođenja">
                             </div>
                         </div>
                         <div class="col-sm-3">
                             <select class="form-control show-tick">
-                                <option value="">- Gender -</option>
-                                <option value="10">Male</option>
-                                <option value="20">Female</option>
+                                <option value="">- Spol -</option>
+                                <option value="10">Muški</option>
+                                <option value="20">Ženski</option>
                             </select>
                         </div>
                         <div class="col-sm-3">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Speciality">
+                                <input type="text" class="form-control" placeholder="Specijalnost">
                             </div>
                         </div>
                         <div class="col-sm-3">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Phone">
+                                <input type="text" class="form-control" placeholder="Telefon">
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Enter Your Email">
+                                <input type="text" class="form-control" placeholder="Email">
                             </div>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Website URL">
-                            </div>
+                        <div class="col-sm-3">
+                            <select class="form-control show-tick">
+                                <option value="">- Titula -</option>
+                                <option value="10">Dr.</option>
+                                <option value="20">Mr.</option>
+                            </select>
                         </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12">
-                            <form action="/" id="frmFileUpload" class="dropzone" method="post" enctype="multipart/form-data">
-                                <div class="dz-message">
-                                    <div class="drag-icon-cph"> <i class="material-icons">touch_app</i> </div>
-                                    <h3>Drop files here or click to upload.</h3>
-                                    <em>(This is just a demo dropzone. Selected files are <strong>not</strong> actually uploaded.)</em> </div>
-                                <div class="fallback">
-                                    <input name="file" type="file" multiple />
-                                </div>
-                            </form>
+                        <div class="col-sm-3">
+                            <select class="form-control show-tick">
+                                <option value="">- Subspecijalnost -</option>
+                                <option value="10">Lorem ipsum</option>
+                                <option value="20">Lorem ipsum</option>
+                            </select>
                         </div>
                         <div class="col-sm-12">
                             <div class="form-group">
-                                <textarea rows="4" class="form-control no-resize" placeholder="Please type what you want..."></textarea>
+                                <textarea rows="4" class="form-control no-resize" placeholder="tekst za unos..."></textarea>
                             </div>
                         </div>
                         <div class="col-sm-12">
-                            <button type="submit" class="btn btn-primary btn-round">Submit</button>
-                            <button type="submit" class="btn btn-default btn-round btn-simple">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-round">Unesi</button>
+                            <button type="submit" class="btn btn-default btn-round btn-simple">Otkaži</button>
                         </div>
                     </div>
                 </div>
@@ -96,7 +101,7 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="header">
-                    <h2><strong>Doctor's</strong> Account Information <small>Description text here...</small> </h2>
+                    <h2><strong>Korisnički</strong> profil <small>podaci za pristup...</small> </h2>
                     <ul class="header-dropdown">
                         <li class="remove">
                             <a role="button" class="boxs-close"><i class="zmdi zmdi-close"></i></a>
@@ -121,8 +126,8 @@
                             </div>
                         </div>
                         <div class="col-sm-12">
-                            <button type="submit" class="btn btn-primary btn-round">Submit</button>
-                            <button type="submit" class="btn btn-default btn-round btn-simple">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-round">Unesi</button>
+                            <button type="submit" class="btn btn-default btn-round btn-simple">Otkaži</button>
                         </div>
                     </div>
                 </div>
@@ -134,7 +139,7 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="header">
-                    <h2><strong>Doctor</strong> Social Media Info <small>Description text here...</small> </h2>
+                    <h2><strong>Social</strong> Media Info <small>kako ga kontaktirati...</small> </h2>
                     <ul class="header-dropdown">
                         <li class="remove">
                             <a role="button" class="boxs-close"><i class="zmdi zmdi-close"></i></a>
@@ -179,16 +184,16 @@
                                 <input type="text" class="form-control" placeholder="dribbble">
                             </div>
                         </div>
-                        <div class="col-sm-12">
+{{--                        <div class="col-sm-12">
                             <p> <b>With Search Bar</b> </p>
                             <select class="form-control z-index show-tick" data-live-search="true">
                                 <option>Hot Dog, Fries and a Soda</option>
                                 <option>Burger, Shake and a Smile</option>
                                 <option>Sugar, Spice and all things nice</option>
                             </select>
-                            <button type="submit" class="btn btn-primary btn-round">Submit</button>
-                            <button type="submit" class="btn btn-default btn-round btn-simple">Cancel</button>
-                        </div>
+                            <button type="submit" class="btn btn-primary btn-round">Unesi</button>
+                            <button type="submit" class="btn btn-default btn-round btn-simple">Otkaži</button>
+                        </div>--}}
                     </div>
                 </div>
             </div>

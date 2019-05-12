@@ -4,7 +4,7 @@
     <div class="card">
         <div class="header">
             <ul class="list-unstyled team-info margin-0">
-                <li class="m-r-15"><h2>Dr. Team</h2></li>
+                <li class="m-r-15"><h2>Dr. Lječnik</h2></li>
                 <li>
                     <img src="../assets/images/xs/avatar2.jpg" alt="Avatar">
                 </li>
@@ -28,25 +28,25 @@
                 <li class="left float-left">
                     <img src="../assets/images/xs/avatar3.jpg" class="rounded-circle" alt="">
                     <div class="chat-info">
-                        <a class="name" href="#">Alexander</a>
+                        <a class="name" href="#">Marinko</a>
                         <span class="datetime">6:12</span>                            
-                        <span class="message">Hello, John </span>
+                        <span class="message">Pozdrav, Lorem Ipsum </span>
                     </div>
                 </li>
                 <li class="right">
-                    <div class="chat-info"><span class="datetime">6:15</span> <span class="message">Hi, Alexander<br> How are you!</span> </div>
+                    <div class="chat-info"><span class="datetime">6:15</span> <span class="message">Pozdrav, Ipsum<br> Lorem"</span> </div>
                 </li>
                 <li class="right">
                     <div class="chat-info"><span class="datetime">6:16</span> <span class="message">There are many variations of passages of Lorem Ipsum available</span> </div>
                 </li>
                 <li class="left float-left"> <img src="../assets/images/xs/avatar2.jpg" class="rounded-circle" alt="">
-                    <div class="chat-info"> <a class="name" href="#">Elizabeth</a> <span class="datetime">6:25</span> <span class="message">Hi, Alexander,<br> John <br> What are you doing?</span> </div>
+                    <div class="chat-info"> <a class="name" href="#">Elizabeth</a> <span class="datetime">6:25</span> <span class="message">Pozdrav, Ipsum,<br> John <br> Lorem Ipsum?</span> </div>
                 </li>
                 <li class="left float-left"> <img src="../assets/images/xs/avatar1.jpg" class="rounded-circle" alt="">
-                    <div class="chat-info"> <a class="name" href="#">Michael</a> <span class="datetime">6:28</span> <span class="message">I would love to join the team.</span> </div>
+                    <div class="chat-info"> <a class="name" href="#">Michael</a> <span class="datetime">6:28</span> <span class="message">There are many variations of passages of Lorem Ipsum available</span> </div>
                 </li>
                     <li class="right">
-                    <div class="chat-info"><span class="datetime">7:02</span> <span class="message">Hello, <br>Michael</span> </div>
+                    <div class="chat-info"><span class="datetime">7:02</span> <span class="message">Pozdrav, Ipsum</span> </div>
                 </li>
             </ul>
             </div>

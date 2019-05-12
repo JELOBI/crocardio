@@ -1,5 +1,5 @@
 @extends('layout.master')
-@section('title', 'Blog Grid')
+@section('title', 'Blog')
 @section('parentPageTitle', 'Blog')
 @section('page-style')
 <link rel="stylesheet" href="{{asset('assets/css/blog.css')}}"/>
@@ -12,9 +12,9 @@
                 <div class="body">
                     <h3 class="m-t-0 m-b-5"><a href="{{route('blog.detail')}}">WTCR from 2018: new rules, more cars, more races</a></h3>
                     <ul class="meta">
-                        <li><a href="#"><i class="zmdi zmdi-account col-blue"></i>Posted By: John Smith</a></li>
-                        <li><a href="#"><i class="zmdi zmdi-label col-lime"></i>Sports</a></li>
-                        <li><a href="#"><i class="zmdi zmdi-comment-text col-blue"></i>Comments: 3</a></li>
+                        <li><a href="#"><i class="zmdi zmdi-account col-blue"></i>Objavio: Dr. Doktorski</a></li>
+                        <li><a href="#"><i class="zmdi zmdi-label col-lime"></i>Savjeti</a></li>
+                        <li><a href="#"><i class="zmdi zmdi-comment-text col-blue"></i>Komentari: 3</a></li>
                     </ul>
                 </div>
                 <div class="body">
@@ -27,7 +27,7 @@
                         </div>
                     </div>
                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
-                    <a href="{{route('blog.detail')}}" title="read more" class="btn btn-round btn-info">Read More</a>                        
+                    <a href="{{route('blog.detail')}}" title="Saznaj više" class="btn btn-round btn-info">Saznaj više</a>                        
                 </div>
             </div>
         </div> 
@@ -36,9 +36,9 @@
                 <div class="body">
                     <h3 class="m-t-0 m-b-5"><a href="{{route('blog.detail')}}">CSS Timeline Examples from CodePen</a></h3>
                     <ul class="meta">
-                        <li><a href="#"><i class="zmdi zmdi-account col-blue"></i>Posted By: John Smith</a></li>
-                        <li><a href="#"><i class="zmdi zmdi-label col-green"></i>Web Design</a></li>
-                        <li><a href="#"><i class="zmdi zmdi-comment-text col-blue"></i>Comments: 3</a></li>
+                        <li><a href="#"><i class="zmdi zmdi-account col-blue"></i>Objavio: Dr. Doktorski</a></li>
+                        <li><a href="#"><i class="zmdi zmdi-label col-green"></i>Analize</a></li>
+                        <li><a href="#"><i class="zmdi zmdi-comment-text col-blue"></i>Komentari: 3</a></li>
                     </ul>
                 </div>
                 <div class="body">
@@ -51,7 +51,7 @@
                         </div>
                     </div>
                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
-                    <a href="{{route('blog.detail')}}" title="read more" class="btn btn-round btn-info">Read More</a>                        
+                    <a href="{{route('blog.detail')}}" title="Saznaj više" class="btn btn-round btn-info">Saznaj više</a>                        
                 </div>
             </div>
         </div>
@@ -60,9 +60,9 @@
                 <div class="body">
                     <h3 class="m-t-0 m-b-5"><a href="{{route('blog.detail')}}">All photographs are accurate. None of them is the truth</a></h3>
                     <ul class="meta">
-                        <li><a href="#"><i class="zmdi zmdi-account col-blue"></i>Posted By: John Smith</a></li>
-                        <li><a href="#"><i class="zmdi zmdi-label col-red"></i>Photography</a></li>
-                        <li><a href="#"><i class="zmdi zmdi-comment-text col-blue"></i>Comments: 3</a></li>
+                        <li><a href="#"><i class="zmdi zmdi-account col-blue"></i>Objavio: Dr. Doktorski</a></li>
+                        <li><a href="#"><i class="zmdi zmdi-label col-red"></i>Kolumne</a></li>
+                        <li><a href="#"><i class="zmdi zmdi-comment-text col-blue"></i>Komentari: 3</a></li>
                     </ul>
                 </div>
                 <div class="body">
@@ -95,7 +95,7 @@
                         </div>
                     </div>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal</p>
-                    <a href="{{route('blog.detail')}}" title="read more" class="btn btn-round btn-info">Read More</a>                        
+                    <a href="{{route('blog.detail')}}" title="Saznaj više" class="btn btn-round btn-info">Saznaj više</a>                        
                 </div>
             </div>
             <div class="row clearfix">
@@ -104,9 +104,9 @@
                         <div class="body">
                             <h3 class="m-t-0 m-b-5"><a href="{{route('blog.detail')}}">WTCR from 2018: new rules, more cars, more races</a></h3>
                             <ul class="meta">
-                                <li><a href="#"><i class="zmdi zmdi-account col-blue"></i>Posted By: John Smith</a></li>
-                                <li><a href="#"><i class="zmdi zmdi-label col-lime"></i>Sports</a></li>
-                                <li><a href="#"><i class="zmdi zmdi-comment-text col-blue"></i>Comments: 3</a></li>
+                                <li><a href="#"><i class="zmdi zmdi-account col-blue"></i>Objavio: Dr. Doktorski</a></li>
+                                <li><a href="#"><i class="zmdi zmdi-label col-lime"></i>Savjeti</a></li>
+                                <li><a href="#"><i class="zmdi zmdi-comment-text col-blue"></i>Komentari: 3</a></li>
                             </ul>
                         </div>
                         <div class="body">
@@ -119,7 +119,7 @@
                                 </div>
                             </div>
                             <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
-                            <a href="{{route('blog.detail')}}" title="read more" class="btn btn-round btn-info">Read More</a>                        
+                            <a href="{{route('blog.detail')}}" title="Saznaj više" class="btn btn-round btn-info">Saznaj više</a>                        
                         </div>
                     </div>
                 </div> 
@@ -128,9 +128,9 @@
                         <div class="body">
                             <h3 class="m-t-0 m-b-5"><a href="{{route('blog.detail')}}">CSS Timeline Examples from CodePen</a></h3>
                             <ul class="meta">
-                                <li><a href="#"><i class="zmdi zmdi-account col-blue"></i>Posted By: John Smith</a></li>
-                                <li><a href="#"><i class="zmdi zmdi-label col-green"></i>Web Design</a></li>
-                                <li><a href="#"><i class="zmdi zmdi-comment-text col-blue"></i>Comments: 3</a></li>
+                                <li><a href="#"><i class="zmdi zmdi-account col-blue"></i>Objavio: Dr. Doktorski</a></li>
+                                <li><a href="#"><i class="zmdi zmdi-label col-green"></i>Analize</a></li>
+                                <li><a href="#"><i class="zmdi zmdi-comment-text col-blue"></i>Komentari: 3</a></li>
                             </ul>
                         </div>
                         <div class="body">
@@ -143,7 +143,7 @@
                                 </div>
                             </div>
                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
-                            <a href="{{route('blog.detail')}}" title="read more" class="btn btn-round btn-info">Read More</a>                        
+                            <a href="{{route('blog.detail')}}" title="Saznaj više" class="btn btn-round btn-info">Saznaj više</a>                        
                         </div>
                     </div>
                 </div>
@@ -154,9 +154,9 @@
                 <div class="body">
                     <h3 class="m-t-0 m-b-5"><a href="{{route('blog.detail')}}">Apple Introduces Search Ads Basic</a></h3>
                     <ul class="meta">
-                        <li><a href="#"><i class="zmdi zmdi-account col-blue"></i>Posted By: John Smith</a></li>
+                        <li><a href="#"><i class="zmdi zmdi-account col-blue"></i>Objavio: Dr. Doktorski</a></li>
                         <li><a href="#"><i class="zmdi zmdi-label col-amber"></i>Technology</a></li>
-                        <li><a href="#"><i class="zmdi zmdi-comment-text col-blue"></i>Comments: 3</a></li>
+                        <li><a href="#"><i class="zmdi zmdi-comment-text col-blue"></i>Komentari: 3</a></li>
                     </ul>
                 </div>
                 <div class="body">
@@ -169,16 +169,16 @@
                         </div>
                     </div>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal</p>
-                    <a href="{{route('blog.detail')}}" title="read more" class="btn btn-round btn-info">Read More</a>                        
+                    <a href="{{route('blog.detail')}}" title="Saznaj više" class="btn btn-round btn-info">Saznaj više</a>                        
                 </div>
             </div>
                 <div class="card single_post">
                 <div class="body">
                     <h3 class="m-t-0 m-b-5"><a href="{{route('blog.detail')}}">All photographs are accurate. None of them is the truth</a></h3>
                     <ul class="meta">
-                        <li><a href="#"><i class="zmdi zmdi-account col-blue"></i>Posted By: John Smith</a></li>
-                        <li><a href="#"><i class="zmdi zmdi-label col-red"></i>Photography</a></li>
-                        <li><a href="#"><i class="zmdi zmdi-comment-text col-blue"></i>Comments: 3</a></li>
+                        <li><a href="#"><i class="zmdi zmdi-account col-blue"></i>Objavio: Dr. Doktorski</a></li>
+                        <li><a href="#"><i class="zmdi zmdi-label col-red"></i>Kolumne</a></li>
+                        <li><a href="#"><i class="zmdi zmdi-comment-text col-blue"></i>Komentari: 3</a></li>
                     </ul>
                 </div>
                 <div class="body">
@@ -191,7 +191,7 @@
                         </div>
                     </div>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal</p>
-                    <a href="{{route('blog.detail')}}" title="read more" class="btn btn-round btn-info">Read More</a>
+                    <a href="{{route('blog.detail')}}" title="Saznaj više" class="btn btn-round btn-info">Saznaj više</a>
                 </div>
             </div>
         </div>

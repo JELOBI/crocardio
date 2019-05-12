@@ -21,7 +21,8 @@
             @yield('page-style')
         @endif
         <!-- Custom Css -->
-        <link rel="stylesheet" href="{{asset('assets/css/main.css')}}">
+        {{--<link rel="stylesheet" href="{{asset('assets/css/main.css')}}">--}}
+        <link rel="stylesheet" href="{{asset('assets/scss/main.css')}}">
         @if (Request::segment(2) === 'rtl' )
             <link rel="stylesheet" href="{{asset('assets/css/rtl.css')}}">
         @endif
@@ -54,8 +55,8 @@
         <!-- Page Loader -->
         <div class="page-loader-wrapper">
             <div class="loader">
-                <div class="m-t-30"><img class="zmdi-hc-spin" src="../assets/images/logo.svg" width="48" height="48" alt="Oreo"></div>
-                <p>Please wait...</p>        
+                <div class="m-t-30"><img class="zmdi-hc-spin" src="../assets/images/logo.png" width="48" height="48" alt="CroCardio"></div>
+                <p>Molimo sačekajte...</p>
             </div>
         </div>
         <!-- Overlay For Sidebars -->
@@ -68,19 +69,19 @@
             <div class="block-header">
                 <div class="row">
                     <div class="col-lg-5 col-md-5 col-sm-12">
-                        <h2>@yield('title') <small class="text-muted">Welcome to Oreo</small></h2>
+                        <h2>@yield('title') <small class="text-muted">Dobrodošli na CroCardio</small></h2>
                     </div>            
                     <div class="col-lg-7 col-md-7 col-sm-12 text-right">
-                        @if (Request::segment(1) === 'dashboard' )
+{{--                        @if (Request::segment(1) === 'dashboard' )
                             <div class="inlineblock text-center m-r-15 m-l-15 d-none d-lg-inline-block">
                                 <div class="sparkline" data-type="bar" data-width="97%" data-height="25px" data-bar-Width="2" data-bar-Spacing="5" data-bar-Color="#fff">3,2,6,5,9,8,7,9,5,1,3,5,7,4,6</div>
-                                <small class="col-white">Visitors</small>
+                                <small class="col-white">Pacijenti</small>
                             </div>
                             <div class="inlineblock text-center m-r-15 m-l-15 d-none d-lg-inline-block">
                                 <div class="sparkline" data-type="bar" data-width="97%" data-height="25px" data-bar-Width="2" data-bar-Spacing="5" data-bar-Color="#fff">1,3,5,7,4,6,3,2,6,5,9,8,7,9,5</div>
-                                <small class="col-white">Operations</small>
+                                <small class="col-white">Lječnici</small>
                             </div>
-                        @endif
+                        @endif--}}
 
                         @if (Request::segment(2) === 'doctors' or Request::segment(2) === 'add-doctor' or Request::segment(2) === 'all-patients' or Request::segment(2) === 'add-patients' or Request::segment(2) === 'add-payment' or Request::segment(2) === 'all-departments' or Request::segment(2) === 'add-department')
                             <button class="btn btn-white btn-icon btn-round d-none d-md-inline-block float-right m-l-10" type="button">
@@ -95,7 +96,7 @@
                         @endif
 
                         <ul class="breadcrumb float-md-right">
-                            <li class="breadcrumb-item"><a href="{{route('dashboard.index')}}"><i class="zmdi zmdi-home"></i> Oreo</a></li>
+                            <li class="breadcrumb-item"><a href="{{route('dashboard.index')}}"><i class="zmdi zmdi-home"></i> CroCardio</a></li>
                             @if (trim($__env->yieldContent('parentPageTitle')))
                                 <li class="breadcrumb-item">@yield('parentPageTitle')</li>
                             @endif

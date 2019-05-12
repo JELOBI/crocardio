@@ -1,0 +1,2 @@
+<p>Herzlich Willkommen,<br>bei der offizielle Seite der Gebrüder Mario Opacak und Tomislav Opacak. Wir sind seit vielen Jahren Unternehmer und haben diverse Unternehmen und Beteiligungen. Möchten Sie mehr über uns erfahren, dann bitten wir Sie uns via Email zu kontaktieren: info@opacak.com.</p>
+<p>Opacak Gruppe | Hans-Cornelius-Strasse 4 | 82166 Gräfelfing</p>

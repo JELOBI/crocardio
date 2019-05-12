@@ -1,6 +1,6 @@
 @extends('layout.master')
-@section('parentPageTitle', 'Appointment')
-@section('title', 'Book')
+@section('parentPageTitle', 'Pregled pacijenta')
+@section('title', 'Pregledi')
 
 @section('page-style')
     <link rel="stylesheet" href="{{asset('assets/plugins/bootstrap-material-datetimepicker/css/bootstrap-material-datetimepicker.css')}}" />
@@ -13,7 +13,7 @@
     <div class="col-lg-12 col-md-12 col-sm-12">
         <div class="card">
             <div class="header">
-                <h2><strong>Book</strong> Appointment<small>Description text here...</small> </h2>
+                <h2><strong>Unesite</strong> pregled<small>Unesite podatke, što više...</small> </h2>
                 <ul class="header-dropdown">                            
                     <li class="remove">
                         <a role="button" class="boxs-close"><i class="zmdi zmdi-close"></i></a>
@@ -22,68 +22,176 @@
             </div>
             <div class="body">
                 <div class="row clearfix">
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="First Name">
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Last Name">
-                        </div>
-                    </div>
-                </div>
-                <div class="row clearfix">
                     <div class="col-sm-3">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Date of Birth">
+                            <input type="text" class="form-control" placeholder="Ime i prezime">
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="OIB">
                         </div>
                     </div>
                     <div class="col-sm-3">
                         <select class="form-control show-tick">
-                            <option value="">- Gender -</option>
-                            <option value="10">Male</option>
-                            <option value="20">Female</option>
+                            <option value="">- Vrsta pregleda -</option>
+                            <option>Obični pregled</option>
+                            <option>Kardio pregled</option>
+                            <option>Kompletan pregled</option>
+                            <option>EKG srca</option>
+                            <option>Mjerenje pritiska</option>
                         </select>
-                    </div>
-                    <div class="col-sm-3">
-                        <select class="form-control show-tick">
-                            <option value="">- Service -</option>
-                            <option>Select Service</option>
-                            <option>Dental Checkup</option>
-                            <option>Full Body Checkup</option>
-                            <option>ENT Checkup</option>
-                            <option>Heart Checkup</option>
-                        </select>                                
                     </div>
                     <div class="col-sm-3">
                         <div class="input-group">
                             <span class="input-group-addon">
                                 <i class="zmdi zmdi-calendar"></i>
                             </span>
-                            <input type="text" class="form-control datetimepicker" placeholder="Please choose date & time...">
+                            <input type="text" class="form-control datetimepicker" placeholder="Datum i vrijeme pregleda...">
                         </div>
                     </div>
                 </div>
                 <div class="row clearfix">
+                    <div class="col-sm-3">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Lorem Ipsum">
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Lorem Ipsum">
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Lorem Ipsum">
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Lorem Ipsum">
+                        </div>
+                    </div>
+                    <div class="col-lg-12"></div>
+                    <hr>
+                    <div class="col-sm-3">
+                        <label>Lorem Ipsum</label>
+                        <select class="form-control show-tick">
+                            <option value="">- Odaberite -</option>
+                            <option value="10">Ne.</option>
+                            <option value="20">Možda</option>
+                            <option value="20">Da</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-3">
+                        <label>Lorem Ipsum</label>
+                        <select class="form-control show-tick">
+                            <option value="">- Odaberite -</option>
+                            <option value="10">Ne.</option>
+                            <option value="20">Možda</option>
+                            <option value="20">Da</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-3">
+                        <label>Lorem Ipsum</label>
+                        <select class="form-control show-tick">
+                            <option value="">- Odaberite -</option>
+                            <option value="10">Ne.</option>
+                            <option value="20">Možda</option>
+                            <option value="20">Da</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-3">
+                        <label>Lorem Ipsum</label>
+                        <select class="form-control show-tick">
+                            <option value="">- Odaberite -</option>
+                            <option value="10">Ne.</option>
+                            <option value="20">Možda</option>
+                            <option value="20">Da</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-3">
+                        <label>Lorem Ipsum</label>
+                        <select class="form-control show-tick">
+                            <option value="">- Odaberite -</option>
+                            <option value="10">Ne.</option>
+                            <option value="20">Možda</option>
+                            <option value="20">Da</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-3">
+                        <label>Lorem Ipsum</label>
+                        <select class="form-control show-tick">
+                            <option value="">- Odaberite -</option>
+                            <option value="10">Ne.</option>
+                            <option value="20">Možda</option>
+                            <option value="20">Da</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-3">
+                        <label>Lorem Ipsum</label>
+                        <select class="form-control show-tick">
+                            <option value="">- Odaberite -</option>
+                            <option value="10">Ne.</option>
+                            <option value="20">Možda</option>
+                            <option value="20">Da</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-3">
+                        <label>Lorem Ipsum</label>
+                        <select class="form-control show-tick">
+                            <option value="">- Odaberite -</option>
+                            <option value="10">Ne.</option>
+                            <option value="20">Možda</option>
+                            <option value="20">Da</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-12"></div>
+                    <hr>
+                    <div class="col-lg-3">
+                        <div class="checkbox">
+                            <input id="checkbox12" type="checkbox">
+                            <label for="checkbox12">
+                                Lorem ipsum nerro, egero cicero ero
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="checkbox">
+                            <input id="checkbox13" type="checkbox">
+                            <label for="checkbox13">
+                                Lorem ipsum nerro, egero cicero ero
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="checkbox">
+                            <input id="checkbox14" type="checkbox">
+                            <label for="checkbox14">
+                                Lorem ipsum nerro, egero cicero ero
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="checkbox">
+                            <input id="checkbox15" type="checkbox">
+                            <label for="checkbox15">
+                                Lorem ipsum nerro, egero cicero ero
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-lg-12"></div>
+                    <hr>
+
                     <div class="col-sm-12">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Enter Your Email">
+                            <label for="tekst_neki">Lorem ipsum</label>
+                            <textarea rows="4" class="form-control no-resize" id="tekst_neki" placeholder="Unesite tekst..."></textarea>
                         </div>
                     </div>
                     <div class="col-sm-12">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Phone">
-                        </div>
-                    </div>
-                    <div class="col-sm-12">
-                        <div class="form-group">
-                            <textarea rows="4" class="form-control no-resize" placeholder="Please type what you want..."></textarea>
-                        </div>
-                    </div>
-                    <div class="col-sm-12">
-                        <button type="submit" class="btn btn-primary btn-round">Submit</button>
-                        <button type="submit" class="btn btn-default btn-round btn-simple">Cancel</button>
+                        <button type="submit" class="btn btn-primary btn-round">Unesi</button>
+                        <button type="submit" class="btn btn-default btn-round btn-simple">Otkaži</button>
                     </div>
                 </div>
             </div>

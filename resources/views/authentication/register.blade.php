@@ -9,10 +9,10 @@
             <form class="form" method="" action="">
                 <div class="header">
                     <div class="logo-container">
-                        <img src="../assets/images/logo.svg" alt="">
+                        <img src="../assets/images/logo.png" alt="">
                     </div>
-                    <h5>Sign Up</h5>
-                    <span>Register a new membership</span>
+                    <h5>Registruj se</h5>
+                    <span>Za profesionalce samo</span>
                 </div>
                 <div class="content">                                                
                     <div class="input-group">
@@ -37,12 +37,12 @@
                 <div class="checkbox">
                         <input id="terms" type="checkbox">
                         <label for="terms">
-                                I read and agree to the <a href="javascript:void(0);">terms of usage</a>
+                                Saglasan sam sa  <a href="javascript:void(0);">uslovima korištenja.</a>
                         </label>
                     </div>
                 <div class="footer text-center">
-                    <a href="{{route('dashboard.index')}}" class="btn btn-primary btn-round btn-lg btn-block waves-effect waves-light">SIGN UP</a>
-                    <h5><a class="link" href="{{route('authentication.login')}}">You already have a membership?</a></h5>
+                    <a href="{{route('dashboard.index')}}" class="btn btn-primary btn-round btn-lg btn-block waves-effect waves-light">REGISTRUJ SE</a>
+                    <h5><a class="link" href="{{route('authentication.login')}}">Več ste se registrovali?</a></h5>
                 </div>
             </form>
         </div>

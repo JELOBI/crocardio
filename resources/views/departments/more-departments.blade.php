@@ -1,6 +1,6 @@
 @extends('layout.master')
-@section('parentPageTitle', 'Departments')
-@section('title', 'All')
+@section('parentPageTitle', 'Ustanove')
+@section('title', 'Sve ustanove')
 
 @section('content')
 
@@ -10,14 +10,14 @@
             <div class="body text-center">
                 <div class="profile-image"> <img src="../assets/images/profile_av.jpg" alt=""> </div>
                 <div>
-                    <h4 class="m-b-0"><strong>Dr. Charlotte</strong> Deo</h4>
-                    <span class="job_post">Neurologist</span>
-                    <p>795 Folsom Ave, Suite 600<br> San Francisco, CADGE 94107</p>
+                    <h4 class="m-b-0"><strong>Dr. Direktor</strong> Ustanove</h4>
+                    <span class="job_post">Kardiohirurg</span>
+                    <p>adresa <br> opatija 1 2 2</p>
                 </div>
-                <div>
+{{--                <div>
                     <button class="btn btn-primary btn-round">Follow</button>
                     <button class="btn btn-primary btn-round btn-simple">Message</button>
-                </div>
+                </div>--}}
                 <p class="social-icon m-t-5 m-b-0">
                     <a title="Twitter" href="javascript:void(0);"><i class="zmdi zmdi-twitter"></i></a>
                     <a title="Facebook" href="javascript:void(0);"><i class="zmdi zmdi-facebook"></i></a>
@@ -30,15 +30,12 @@
         <div class="card">
             <div class="body">
                 <div class="workingtime">
-                    <h6>Working Time</h6>
-                    <small class="text-muted">Tuesday</small>
-                    <p>06:00 AM - 07:00 AM</p>
-                    <hr>
-                    <small class="text-muted">Thursday</small>
-                    <p>06:00 AM - 07:00 AM</p>
+                    <h6>Radno vrijeme</h6>
+                    <small class="text-muted">Pon-Pet</small>
+                    <p>07:30 - 17:00</p>
                     <hr>
                 </div>
-                <div class="reviews">
+                {{--<div class="reviews">
                     <h6>Reviews</h6>
                     <small class="text-muted">Staff</small>
                     <p>
@@ -85,7 +82,7 @@
                         <i class="zmdi zmdi-star-outline"></i>
                     </p>
                     <hr>
-                </div>
+                </div>--}}
             </div>
         </div>
     </div>
@@ -105,22 +102,22 @@
                         <div class="carousel-item">
                             <img src="../assets/images/image-gallery/5.jpg" class="img-fluid" alt="">
                             <div class="carousel-caption">
-                            <h3>Chicago</h3>
-                            <p>Thank you, Chicago!</p>
+                            <h3>Opatija</h3>
+                            <p>Lorem ipsum orenar</p>
                             </div>
                         </div>
                         <div class="carousel-item active">
                             <img src="../assets/images/image-gallery/6.jpg" class="img-fluid" alt="">
                             <div class="carousel-caption">
-                            <h3>New York</h3>
-                            <p>We love the Big Apple!</p>
+                            <h3>Naslov koji nešto kaže</h3>
+                                <p>Lorem ipsum orenar</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img src="../assets/images/image-gallery/12.jpg" class="img-fluid" alt="">
                             <div class="carousel-caption">
-                            <h3>Los Angeles</h3>
-                            <p>We had such a great time in LA!</p>
+                            <h3>Opatija</h3>
+                                <p>Lorem ipsum orenar</p>
                             </div>
                         </div>
                     </div>
@@ -152,7 +149,7 @@
                 <p>Denouncing pleasure and praising pain was born wewill give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness rationally.</p>
             </div>
         </div>
-        <div class="row">
+{{--        <div class="row">
             <div class="col-lg-6 col-md-12">
                 <div class="card">
                     <div class="header">
@@ -233,7 +230,7 @@
                     </div>
                 </div>   
             </div>
-        </div>
+        </div>--}}
     </div>            
 </div>
 

@@ -9,7 +9,7 @@
             <form class="form" method="" action="">
                 <div class="header">
                     <div class="logo-container">
-                        <img src="../assets/images/logo.svg" alt="">
+                        <img src="../assets/images/logo.png" alt="">
                     </div>
                     <h5>Error 404</h5>
                     <span>Page not found</span>

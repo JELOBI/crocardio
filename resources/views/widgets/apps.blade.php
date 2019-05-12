@@ -11,7 +11,7 @@
             <div class="pw_content">
                 <div class="pw_header">
                     <h6>Magazine Design</h6>
-                    <small class="text-muted">Oreo  |  Last Update: 12 Dec 2017</small>
+                    <small class="text-muted">CroCardio  |  Last Update: 12 Dec 2017</small>
                 </div>
                 <div class="pw_meta">
                     <span>4,870 USD</span>
@@ -29,7 +29,7 @@
             <div class="pw_content">
                 <div class="pw_header">
                     <h6>New Dashboard</h6>
-                    <small class="text-muted">Oreo  |  Last Update: 17 Dec 2017</small>
+                    <small class="text-muted">CroCardio  |  Last Update: 17 Dec 2017</small>
                 </div>
                 <div class="pw_meta">
                     <span>921 USD</span>
@@ -47,7 +47,7 @@
             <div class="pw_content">
                 <div class="pw_header">
                     <h6>Mobile App</h6>
-                    <small class="text-muted">Oreo  |  Last Update: 21 Dec 2017</small>
+                    <small class="text-muted">CroCardio  |  Last Update: 21 Dec 2017</small>
                 </div>
                 <div class="pw_meta">
                     <span>1,870 USD</span>

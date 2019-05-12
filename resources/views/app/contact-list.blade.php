@@ -1,5 +1,5 @@
 @extends('layout.master')
-@section('title', 'Contact')
+@section('title', 'Kontakt')
 @section('parentPageTitle', 'App')
 @section('content')
 <div class="contact">
@@ -8,8 +8,8 @@
             <div class="card">
                 <div class="body">
                     <ul class="nav nav-tabs padding-0">
-                        <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#Doctors">Doctors</a></li>
-                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Patients">Patients</a></li>
+                        <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#Doctors">Lječnici</a></li>
+                        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Patients">Pacijenti</a></li>
                     </ul>                                                
                 </div>                   
             </div>
@@ -30,13 +30,13 @@
                         </div>
                         <div class="col-lg-5 col-md-5 col-6">
                             <div class="input-group search">
-                                <input type="text" class="form-control" placeholder="Search...">
+                                <input type="text" class="form-control" placeholder="Traži...">
                                 <span class="input-group-addon">
                                     <i class="zmdi zmdi-search"></i>
                                 </span>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-5 col-3 text-right">
+{{--                        <div class="col-lg-6 col-md-5 col-3 text-right">
                             <div class="btn-group d-none d-md-inline-block" role="group">
                                 <div class="btn-group">
                                     <button type="button" class="btn col-black btn-neutral dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -59,7 +59,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div>--}}
                             <button type="button" class="btn col-black btn-neutral d-none d-md-inline-block">
                                 <i class="zmdi zmdi-plus-circle"></i>
                             </button>
@@ -82,10 +82,10 @@
                                     <thead>
                                         <tr>
                                             <th>#</th>
-                                            <th>Name</th>                                    
-                                            <th>Phone</th>                                    
-                                            <th>Address</th>
-                                            <th>Action</th>
+                                            <th>Ime i prezime</th>
+                                            <th>Telefon</th>
+                                            <th>Adresa</th>
+                                            <th></th>
                                         </tr>
                                     </thead>
                                         <tbody>
@@ -101,7 +101,7 @@
                                                 <p class="c_name">John Smith</p>
                                             </td>
                                             <td>
-                                                <span class="phone"><i class="zmdi zmdi-phone m-r-10"></i>264-625-2583</span>
+                                                <span class="phone"><i class="zmdi zmdi-phone m-r-10"></i>385-051-2583</span>
                                             </td>                                   
                                             <td>
                                                 <address><i class="zmdi zmdi-pin"></i>123 6th St. Melbourne, FL 32904</address>
@@ -123,7 +123,7 @@
                                                 <p class="c_name">Maryam Amiri</p>
                                             </td>
                                             <td>
-                                                <span class="phone"><i class="zmdi zmdi-phone m-r-10"></i>264-625-9513</span>
+                                                <span class="phone"><i class="zmdi zmdi-phone m-r-10"></i>385-051-9513</span>
                                             </td>
                                             <td>
                                                 <address><i class="zmdi zmdi-pin"></i>123 6th St. Melbourne, FL 32904</address>
@@ -145,7 +145,7 @@
                                                 <p class="c_name">Tim Hank</p>
                                             </td>
                                             <td>
-                                                <span class="phone"><i class="zmdi zmdi-phone m-r-10"></i>264-625-1212</span>
+                                                <span class="phone"><i class="zmdi zmdi-phone m-r-10"></i>385-051-1212</span>
                                             </td>
                                             <td>
                                                 <address><i class="zmdi zmdi-pin"></i>70 Bowman St. South Windsor, CT 06074</address>
@@ -167,7 +167,7 @@
                                                 <p class="c_name">Gary Camara</p>
                                             </td>
                                             <td>
-                                                <span class="phone"><i class="zmdi zmdi-phone m-r-10"></i>264-625-1005</span>
+                                                <span class="phone"><i class="zmdi zmdi-phone m-r-10"></i>385-051-1005</span>
                                             </td>
                                             <td>
                                                 <address><i class="zmdi zmdi-pin"></i>44 Shirley Ave. West Chicago, IL 60185</address>
@@ -189,7 +189,7 @@
                                                 <p class="c_name">Frank Camly</p>
                                             </td>
                                             <td>
-                                                <span class="phone"><i class="zmdi zmdi-phone m-r-10"></i>264-625-9999</span>
+                                                <span class="phone"><i class="zmdi zmdi-phone m-r-10"></i>385-051-9999</span>
                                             </td>
                                             <td>
                                                 <address><i class="zmdi zmdi-pin"></i>123 6th St. Melbourne, FL 32904</address>
@@ -211,7 +211,7 @@
                                                 <p class="c_name">Tim Hank</p>
                                             </td>
                                             <td>
-                                                <span class="phone"><i class="zmdi zmdi-phone m-r-10"></i>264-625-1212</span>
+                                                <span class="phone"><i class="zmdi zmdi-phone m-r-10"></i>385-051-1212</span>
                                             </td>
                                             <td>
                                                 <address><i class="zmdi zmdi-pin"></i>70 Bowman St. South Windsor, CT 06074</address>
@@ -231,10 +231,10 @@
                                     <thead>
                                         <tr>
                                             <th>#</th>
-                                            <th>Name</th>                                    
-                                            <th data-breakpoints="xs">Phone</th>                                    
-                                            <th data-breakpoints="xs sm md">Address</th>
-                                            <th data-breakpoints="xs">Action</th>
+                                            <th>Ime i prezime</th>
+                                            <th data-breakpoints="xs">Telefon</th>
+                                            <th data-breakpoints="xs sm md">Adresa</th>
+                                            <th data-breakpoints="xs"></th>
                                         </tr>
                                     </thead>
                                         <tbody>                                            
@@ -250,7 +250,7 @@
                                                 <p class="c_name">Maryam Amiri</p>
                                             </td>
                                             <td>
-                                                <span class="phone"><i class="zmdi zmdi-phone m-r-10"></i>264-625-9513</span>
+                                                <span class="phone"><i class="zmdi zmdi-phone m-r-10"></i>385-051-9513</span>
                                             </td>
                                             <td>
                                                 <address><i class="zmdi zmdi-pin"></i>123 6th St. Melbourne, FL 32904</address>
@@ -272,7 +272,7 @@
                                                 <p class="c_name">Tim Hank</p>
                                             </td>
                                             <td>
-                                                <span class="phone"><i class="zmdi zmdi-phone m-r-10"></i>264-625-1212</span>
+                                                <span class="phone"><i class="zmdi zmdi-phone m-r-10"></i>385-051-1212</span>
                                             </td>
                                             <td>
                                                 <address><i class="zmdi zmdi-pin"></i>70 Bowman St. South Windsor, CT 06074</address>
@@ -294,7 +294,7 @@
                                                 <p class="c_name">Fidel Tonn</p>
                                             </td>
                                             <td>
-                                                <span class="phone"><i class="zmdi zmdi-phone m-r-10"></i>264-625-2323</span>
+                                                <span class="phone"><i class="zmdi zmdi-phone m-r-10"></i>385-051-2323</span>
                                             </td>
                                             <td>
                                                 <address><i class="zmdi zmdi-pin"></i>514 S. Magnolia St. Orlando, FL 32806</address>
@@ -316,7 +316,7 @@
                                                 <p class="c_name">Gary Camara</p>
                                             </td>
                                             <td>
-                                                <span class="phone"><i class="zmdi zmdi-phone m-r-10"></i>264-625-1005</span>
+                                                <span class="phone"><i class="zmdi zmdi-phone m-r-10"></i>385-051-1005</span>
                                             </td>
                                             <td>
                                                 <address><i class="zmdi zmdi-pin"></i>44 Shirley Ave. West Chicago, IL 60185</address>
@@ -338,7 +338,7 @@
                                                 <p class="c_name">Frank Camly</p>
                                             </td>
                                             <td>
-                                                <span class="phone"><i class="zmdi zmdi-phone m-r-10"></i>264-625-9999</span>
+                                                <span class="phone"><i class="zmdi zmdi-phone m-r-10"></i>385-051-9999</span>
                                             </td>
                                             <td>
                                                 <address><i class="zmdi zmdi-pin"></i>123 6th St. Melbourne, FL 32904</address>
@@ -360,7 +360,7 @@
                                                 <p class="c_name">Tim Hank</p>
                                             </td>
                                             <td>
-                                                <span class="phone"><i class="zmdi zmdi-phone m-r-10"></i>264-625-1212</span>
+                                                <span class="phone"><i class="zmdi zmdi-phone m-r-10"></i>385-051-1212</span>
                                             </td>
                                             <td>
                                                 <address><i class="zmdi zmdi-pin"></i>70 Bowman St. South Windsor, CT 06074</address>

@@ -14,47 +14,32 @@ function MorrisArea() {
     Morris.Area({
         element: 'area_chart',
         data: [{
-            period: '2011',
-            America: 2,
-            India: 0,
-            Australia: 0
+            period: '2019 Q1',
+            America: 10,
+            India: 4,
+            Australia: 3
         }, {
-            period: '2012',
+            period: '2019 Q2',
             America: 31,
             India: 10,
             Australia: 5
         }, {
-            period: '2013',
+            period: '2019 Q3',
             America: 15,
             India: 28,
             Australia: 23
         }, {
-            period: '2014',
+            period: '2019 Q4',
             America: 45,
             India: 12,
             Australia: 7
-        }, {
-            period: '2015',
-            America: 20,
-            India: 32,
-            Australia: 55
-        }, {
-            period: '2016',
-            America: 39,
-            India: 67,
-            Australia: 20
-        }, {
-            period: '2017',
-            America: 20,
-            India: 9,
-            Australia: 5
         }
 
     ],
     lineColors: ['#a890d3', '#FFC107', '#666666'],
     xkey: 'period',
     ykeys: ['America', 'India', 'Australia'],
-    labels: ['America', 'India', 'Australia'],
+    labels: ['Opatija', 'Ustanova 1', 'Ustanova 2'],
     pointSize: 0,
     lineWidth: 0,
     resize: true,
@@ -209,7 +194,7 @@ $(function() {
 	if( $('#world-map-markers2').length > 0 ){
 		$('#world-map-markers2').vectorMap(
 		{
-			map: 'world_mill_en',
+			map: 'europe_mill',
 			backgroundColor: 'transparent',
 			borderColor: '#fff',
 			borderOpacity: 0.25,
